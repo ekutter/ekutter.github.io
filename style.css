@@ -1,0 +1,29 @@
+﻿body
+{
+}
+
+.SectionHeader {
+  font-size: 20px;
+  background-color: deepskyblue;
+  color: black;
+}
+
+ul.ImgList
+{
+  height: 96px;
+  width: auto;
+}
+
+  ul.ImgList li {
+    list-style: none;
+    display: block;
+    vertical-align: central;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+  }
+
+  ul.ImgList li a 
+  {
+    vertical-align: central;
+  }

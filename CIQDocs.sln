@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{960EB528-D647-4FFE-B51F-D2352CCEC585}"
+	ProjectSection(SolutionItems) = preProject
+		DogTrackerApp.html = DogTrackerApp.html
+		DogTrackerFld.html = DogTrackerFld.html
+		DogTrackerPlus.html = DogTrackerPlus.html
+		index.html = index.html
+		style.css = style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8091E38D-36CB-4564-84FD-6E3ACF652110}
+	EndGlobalSection
+EndGlobal
