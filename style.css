@@ -2,28 +2,44 @@
 {
 }
 
-.SectionHeader {
-  font-size: 30pt ;
+.PageHeader
+{
+  font-size: 40pt;
   color: black;
+  align-content: center;
+}
+
+.SectionHeader
+{
+  font-size: 25pt;
+  color: black;
+}
+
+.ImgWDesc
+{
+  height: 96px;
+  align-content: center;
+  padding: 10px;
 }
 
 ul.ImgList
 {
   height: 96px;
   width: auto;
-  align-content:center;
+  align-content: center;
 }
 
-  ul.ImgList li {
-    list-style: none;
-    display: block;
-    align-content: center;
-    vertical-align: central;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+ul.ImgList li
+{
+  list-style: none;
+  display: block;
+  align-content: center;
+  vertical-align: central;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
 
-  ul.ImgList li a 
-  {
-    vertical-align: central;
-  }
+ul.ImgList li a
+{
+  vertical-align: central;
+}
