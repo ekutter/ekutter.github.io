@@ -3,20 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{960EB528-D647-4FFE-B51F-D2352CCEC585}"
-	ProjectSection(SolutionItems) = preProject
-		DogTrackerApp.html = DogTrackerApp.html
-		DogTrackerFld.html = DogTrackerFld.html
-		DogTrackerPlus.html = DogTrackerPlus.html
-		index.html = index.html
-		style.css = style.css
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CIQDocs", ".", "{EC11BA74-EEF7-404A-8A45-D23456F76599}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54263"
+		Debug.AspNetCompiler.PhysicalPath = "..\CIQDocs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54263\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54263"
+		Release.AspNetCompiler.PhysicalPath = "..\CIQDocs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54263\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54263"
 	EndProjectSection
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC11BA74-EEF7-404A-8A45-D23456F76599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC11BA74-EEF7-404A-8A45-D23456F76599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8091E38D-36CB-4564-84FD-6E3ACF652110}
+		SolutionGuid = {78E3630E-E909-4F3C-8A00-A0D455A62B5A}
 	EndGlobalSection
 EndGlobal
