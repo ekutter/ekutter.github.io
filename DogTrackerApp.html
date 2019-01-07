@@ -3,19 +3,85 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
-  <meta  name="viewport" content="width = device-width" />
+  <meta name="viewport" content="width = device-width" />
   <title>Dog Tracker App</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
   <div class="PageHeader">Dog Tracker App</div>
-  <br />
-  <div class="ImgWDesc"><img src="TrackerApp\TrackerAppHome.jpg" width="96" height="96" /></div>
+  <div class="ImgWDesc">
+    <img src="TrackerApp\TrackerAppHome.jpg" width="96" height="96" /></div>
+
+  <div style="font: larger bold">See your dogs location with a glance at your wrist when paired with a Garmin Alpha or Astro 430/320. </div>
+
+  <div style="font: larger">If you find this free app useful, please consider donating to your local dog rescue organization. Thank you.</div>
+  
+  <div>
+    <a href="https://apps.garmin.com/en-US/apps/2b0019e1-38c9-4b51-9c02-f077cbc9227b#0">
+      Connect IQ store</a>
+  </div>
+
+  <div>
+    <a href="#Usage">Usage</a><br />
+    <a href="#ConfiguringSettings">Configuring Settings</a><br />
+    <a href="#TroubleShooting">Trouble Shooting</a><br />
+  </div>
 
   <div class="SectionHeader">Features</div>
-  <br />
-  <div class="SectionHeader">Trouble Shooting</div>
+  <ul>
+    <li>Customize-able distance alerts - set the distance, enter tone, and exit tone</li>
+    <li>Optional repeating distance vibration - vibrates every 10 seconds if your dog stays outside of a custom set distance</li>
+    <li>Optional movement alert - short vibration when they stop, longer one when they start moving again.</li>
+    <li>dog odometer - displays the distance your dog has traveled since you started the app. Can be disabled</li>
+    <li>Single display to show direction of multiple dogs and distance to first 4</li>
+    <li>Individual display for each dog</li>
+    <li>Configurable Alpha ID for multiple Alpha/Astro environment.</li>
+    <li>Indicates if dogs are moving or stationary</li>
+    <li>Indicates North on the summary page and, on some devices, with a small red circle around the edge of individual dog pages</li>
+    <li>Displays distance in yards or meters, depending on user settings</li>
+    <li>Multiple Garmin devices can be displaying data from a single Alpha at the same time as long as they are within a few yards of the Alpha.</li>
+    <li>use next/prev (page up, page down, screen swipes) to move between dogs.</li>
+    <li>low Alpha battery symbol will show next to the current time if battery is low</li>
+    <li>low collar battery symbol will show next to the dog distance if the collar battery is low</li>
+    <li>The app will display "searching" until it finds an Alpha.</li>
+  </ul>
+
+  <div class="SectionHeader" id="Usage">Usage</div>
+  <ul>
+    <li>Please make sure you have the latest firmware for your Alpha/Astro 430 and "settings / Dogs / Broadcast Dog Data" set to On.</li>
+    <li>The app will display "no dogs" if there are no dogs configured or connected to the Alpha.</li>
+    <li>The data being displayed is from a connection to the Alpha hand held. This does not work with just the dog collar.</li>
+    <li>On the individual dog pages, the arrow turns green when the dog is moving, red when the dog is stopped.</li>
+    <li>On the group dog page (big circle), there will be a small direction indicator for each dog, using the color configured on the Alpha itself, and the distance of the furthest dog. The name of the furthest dog will be displayed above the distance.</li>
+    <li>On the group dog page, the big circle will turn green if the furthest dog is moving and red if she is stationary.</li>
+    <li>On the group dog page, the outline of each of the direction indicators will be thick if the dog is stationary, thin if the dog is moving.</li>
+    <li>The direction arrow is relative to the direction your watch/device is pointing. For best results your watch/device should be held level in front of you.</li>
+  </ul>
+
+  <div class="SectionHeader" id="ConfiguringSettings">Configuring Settings</div>
+  <ul>
+    <li>In Garmin Connect on your phone, select your "watch device / Connect IQ Apps / Applications / Dog Tracker App / settings"</li>
+    <li>For the Alpha ID in settings, set it to "-1" to lock in the next Alpha found. Use "0" to have it always use the first Alpha it finds, but without locking it in for next time. Or enter the specific Alpha ID you want to always find. You can determine the Alpha ID by setting it to "-1" when no other Alpha's are around. It will then fill in this setting with the current Alpha ID.</li>
+    <li>Alerts - Set the distance and tones. If you change one of the enter or exit tones (a number from 0 - 19) and and press save while your watch is connected to your phone, it will play the tone on update. This lets you try out various tones. A value of 0 means no tone.</li>
+    <li>distance alert of zero turns off the distance alerts</li>
+  </ul>
+  <div class="SectionHeader" id="TroubleShooting">Trouble Shooting</div>
+  <ul>
+    <li>Please make sure you have the latest firmware for your Alpha/Astro 430 and "settings / Dogs / Broadcast Dog Data" set to On.</li>
+    <li>Troubles connecting to your Alpha: it may be due to conflicts with Garmin's Dog Tracker Widget. To fix it:
+        <ul>
+          <li>Run the Garmin Widget (down arrow from the watch face until you see it)</li>
+          <li>Press the Start button to bring up the menu</li>
+          <li>Select “forget this device”</li>
+          <li>Exit out of the Widget with the Back button</li>
+        </ul>
+    </li>
+    <li> "no dogs" : You have a connection to the Alpha/Astro but it doesn't see any dogs.  This is a connection
+      issue between your Alpha/Astro and the dog collar, not with the Dog Tracker App. </li>
+
+  </ul>
+
 
 </body>
 </html>

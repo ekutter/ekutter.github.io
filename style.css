@@ -43,3 +43,20 @@ ul.ImgList li a
 {
   vertical-align: central;
 }
+
+ul
+{
+  margin-top: 0;
+  list-style-type: disc;
+}
+
+a
+{
+  text-decoration: none !important;
+  color: blue;
+}
+
+div
+{
+  padding-top: 0.5em;
+}
