@@ -4,7 +4,7 @@
 
 .PageHeader
 {
-  font-size: 40pt;
+  font-size: 30pt;
   color: black;
   align-content: center;
 }
@@ -52,6 +52,7 @@ ul
 
 a
 {
+  font: larger;
   text-decoration: none !important;
   color: blue;
 }
