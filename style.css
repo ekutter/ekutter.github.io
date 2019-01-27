@@ -28,16 +28,18 @@ ul.Menus
   font-weight:bolder;
 }
 
-ul.Menus ul
-{
-  margin-left: 10px;
-  font-weight:normal;
-}
+  ul.Menus ul
+  {
+    padding-left: 5px;
+    margin-left: 10px;
+    font-weight: normal;
+  }
 
-ul.Menus ul
-{
-  margin-left:5px;
-}
+  ul.Menus ul
+  {
+    padding-left: 5px;
+    margin-left: 5px;
+  }
 
 ul.Menus li
 {
