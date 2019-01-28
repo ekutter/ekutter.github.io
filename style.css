@@ -15,6 +15,11 @@
   color: black;
 }
 
+img.Img1
+{
+  width: 140;
+  height: 140;
+}
 .ImgWDesc
 {
   height: 96px;
