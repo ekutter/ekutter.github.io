@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <p>
+        MTP Sync tool</p>
+    <p>
+        Aimed at garmin devices.&nbsp; The purpose is to aid in copying files to/from Media Transfer Protocol devices.&nbsp;
+    </p>
+    <p>
+        Use at your own risk: I&#39;m not going to guarantee you won&#39;t lose a file.&nbsp; Bugs happen.&nbsp; But I haven&#39;t run into any issues in several months.</p>
+    <p>
+        Any questions or issues please email me at <a href="mailto:eric@mtyquinn.com">eric@mtyquinn.com</a></p>
+    <p>
+        usage: download the following file: <a href="apps/MTPSync.zip">MTPSync.zip</a>. You can place MTPSync.exe anywhere on your computer and just create a convenient link to it.&nbsp; It will default to using <a href="file:///C:/MTP">C:\MTP</a> for the cache location.&nbsp; Through the menu&#39;s you can change that to anywhere. That is where the configuration file lives.&nbsp; If you change the folder, you&#39;ll lose all your current settings.</p>
+    <p>
+        Features</p>
+    <ul>
+        <li>Keep Track of your devices</li>
+        <li>Show connection status</li>
+        <li>show last sync time</li>
+        <li>Allow assigning drive letter for quick access to cache folder for a specific device.&nbsp; Really handy for the CIQ sdk - <a href="file:///m:/apps">m:\apps</a> for the target</li>
+        <li>Automatically deletes files after sync (optional for activities and scorecards)</li>
+        <li>Aliases names: different devices use different folder names for activities for example: Activity vs Activities. </li>
+        <li>trim old files in cache (you got to tell it with File\Trim) - it&#39;ll get really big otherwise</li>
+        <li>rename files with date/device name on import when appropriate</li>
+        <li>hide devices you don&#39;t often use</li>
+    </ul>
+    <p>
+        - MTP syncs the following folders from your device to a folder on you computer:</p>
+    <ul>
+        <li>Activities</li>
+        <li>Scorecards</li>
+        <li>scrnshot</li>
+        <li>Logs\Dbg, Logs\Bin</li>
+        <li>Apps\Logs - and append .bak to .txt files in the process</li>
+        <li>Apps -&gt; pre-build to convenient drive letter - copy to device when connected</li>
+        <li>GarminDevices.xml</li>
+    </ul>
+
+    &nbsp;
+</body>
+</html>
