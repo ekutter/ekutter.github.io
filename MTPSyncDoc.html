@@ -24,14 +24,20 @@
     <ul>
         <li>Keep Track of your devices</li>
         <li>Works with MTP and non MTP devices alike</li>
+        <li>Auto detect - looks for MTP devices every 5 seconds.&nbsp; Performs sync on connected devices.&nbsp; enable/disable in File menu.</li>
         <li>Show connection status</li>
         <li>show last sync time</li>
-        <li>Allow assigning drive letter for quick access to cache folder for a specific device.&nbsp; Really handy for the CIQ sdk - <a href="file:///m:/apps">m:\apps</a> for the target</li>
+        <li>Allow assigning drive letter for quick access to cache folder for a specific device.&nbsp; Really handy for the CIQ sdk - <a href="file:///m:/apps">m:\apps</a> for the target.  
+             Note, it will create a network drive with the link.  You probably have to be an administrator. Force an update of the connections with "File\Update Network Drives"</li>
         <li>Automatically deletes files after sync (optional for activities and scorecards)</li>
-        <li>Aliases names: different devices use different folder names for activities for example: Activity vs Activities. </li>
+        <li>Aliases names: different devices use different folder names for activities for example: Activity vs Activities.&nbsp; Always uses Activity on PC.</li>
         <li>trim old files in cache (you got to tell it with File\Trim) - it&#39;ll get really big otherwise</li>
         <li>rename files with date/device name on import when appropriate</li>
         <li>hide devices you don&#39;t often use</li>
+        <li>Quick link to folders - double click on model name or drive letter to bring up folder in explorer.&nbsp; No way to automatically bring up device folder on MTP.</li>
+        <li>File menu items generally are global</li>
+        <li>Device menu items are generally device specific settings/operations</li>
+        <li>Logging - all copy and delete operations are logged to MTPSyncLog.txt located in the same folder as MTPSync.exe. use &quot;File / View Log File&quot; to view in notepad.&nbsp; Feel free to delete it if it&#39;s getting too big.</li>
     </ul>
     <p>
         - MTP syncs the following folders from your device to a folder on you computer:</p>
@@ -40,11 +46,10 @@
         <li>Scorecards</li>
         <li>scrnshot</li>
         <li>Logs\Dbg, Logs\Bin</li>
-        <li>Apps\Logs - and append .bak to .txt files in the process</li>
-        <li>Apps -&gt; pre-build to convenient drive letter - copy to device when connected</li>
-        <li>GarminDevices.xml</li>
+        <li>Apps\Logs - and append .bak to .txt files in the process.&nbsp; Truncates .txt files after sync.</li>
+        <li>Apps -&gt; Syncs PC to device. pre-build to convenient drive letter - auto copy to device when connected</li>
+        <li>GarminDevices.xml - saves one per day</li>
     </ul>
 
-    &nbsp;
 </body>
 </html>
